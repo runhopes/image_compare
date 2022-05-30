@@ -50,12 +50,3 @@
 <div id="resim1"> </div>
 
 <div id="resim2"> </div>
-<?php 
-
-$baglanti = new PDO("mysql:host=localhost;dbname=admin_resim", "bora", "Pi49%gt72");
-$baglanti->exec("SET NAMES UTF8");
-$baglanti->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-
-
-?>
